@@ -1,7 +1,7 @@
 {
     "model_directory": "./models/saved_models/",
     "data_directory": "./data/",
-    "use_cuda": true,
+    "use_cuda": false,
     "classifier_name": "classifier.pt",
     "weights_name": "saved_l2.net"
 }

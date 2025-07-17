@@ -42,7 +42,7 @@ def parse_args(config):
     return args
 
 
-def get_device(use_cuda=True):
+def get_device(use_cuda=False):
     if use_cuda:
         os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
         os.environ["CUDA_VISIBLE_DEVICES"] = "0"

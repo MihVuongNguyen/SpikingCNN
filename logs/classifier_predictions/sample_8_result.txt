@@ -1,0 +1,2 @@
+Ground truth: 8
+Prediction: 8
